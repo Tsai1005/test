@@ -12,6 +12,6 @@ dev 作修改后 git diff 无论在身处dev 或者master 分支都能看到差�
 
 git checkout master 到本地，then git merge dev & git branch -d dev合并分支改动后删除
 
-在dev分支修改后，master同时修改，待合并冲突
+在dev1分支修改后，master同时修改，待合并冲突
 
 在dev2 修改后，合并到master，使用git merge --no-ff 
