@@ -15,3 +15,5 @@ git checkout master 到本地，then git merge dev & git branch -d dev合并分�
 在dev1分支修改后，master同时修改，待合并冲突
 
 在dev2 修改后，合并到master，使用git merge --no-ff 
+
+在dev3 中进行功能开发，然后突然发现master 需要bug fix，尝试git stash
